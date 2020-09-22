@@ -1,0 +1,38 @@
+* { margin: 0; padding: 0; font-family: 'Montserrat', sans-serif}
+#title{
+  color: #DCDCDC;
+  height: 50px;
+  display:flex;
+  margin-top:25px;
+  font-weight:100;
+}
+.topnav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #585858;
+}
+body{
+  background-color: #2B2733;
+  color: #CBC9CF;
+}
+
+.left-body{
+  position:fixed;
+  width:70%;
+  height:100%;
+}
+#new-activity{
+  color: #DCDCDC;
+  height: 50px;
+  font-weight:1;
+  display:flex;
+  margin-top:35px;
+  margin-left: 30px;
+}
+#inner-left{
+  background-color:#585858;
+  width: 90%;
+  margin-left:30px;
+  height:75%;
+}
