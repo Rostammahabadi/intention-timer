@@ -62,10 +62,10 @@ button{
   display:inline-block;
   text-align:center;
   cursor:pointer;
+  color:white;
 }
 .in-button{
   margin:0;
-  color:white;
 }
 .study{
   display:flex;
@@ -75,4 +75,30 @@ button{
 }
 h3{
   font-weight:normal;
+}
+.top-input{
+  padding-top:40px;
+}
+.accomplishment{
+  background-color:transparent;
+  border:none;
+  border-bottom: 2px solid white;
+  width:100%
+}
+.minutes{
+  background-color:transparent;
+  border:none;
+  border-bottom: 2px solid white;
+  width:300px;
+}
+.input{
+  padding-top:30px;
+}
+.grouped-input{
+  display:flex;
+  justify-content:space-between;
+}
+.start-activity{
+  background-color:grey;
+  color:black;
 }
