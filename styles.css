@@ -47,3 +47,32 @@ section{
   width: 90%;
   height: 83%;
 }
+.button-container{
+  display:flex;
+  justify-content: space-between;
+  margin:0px;
+  width:100%;
+}
+button{
+  background-color:#46424D;
+  height:60px;
+  border-color:white;
+  border-radius: 5px;
+  width:150px;
+  display:inline-block;
+  text-align:center;
+  cursor:pointer;
+}
+.in-button{
+  margin:0;
+  color:white;
+}
+.study{
+  display:flex;
+  width:20px;
+  height:20px;
+  margin-left:55px;
+}
+h3{
+  font-weight:normal;
+}
