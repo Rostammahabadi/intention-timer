@@ -63,11 +63,12 @@ button{
   text-align:center;
   cursor:pointer;
   color:white;
+  outline:none;
 }
 .in-button{
   margin:0;
 }
-.study{
+.activity-image{
   display:flex;
   width:20px;
   height:20px;
@@ -85,7 +86,7 @@ h3{
   border-bottom: 2px solid white;
   width:100%
 }
-.minutes{
+.time{
   background-color:transparent;
   border:none;
   border-bottom: 2px solid white;
@@ -109,6 +110,9 @@ h3{
 }
 input{
   outline:none;
+  font-size:18px;
+  color:white;
+  font-weight:300;
 }
 .aside-section{
   text-align:center;

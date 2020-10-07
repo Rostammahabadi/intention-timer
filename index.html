@@ -6,6 +6,7 @@
     <meta charset="utf-8">
     <title></title>
   </head>
+  <script src='main.js' defer></script>
   <body>
     <header>
       <h1>Intention Timer</h1>
@@ -16,16 +17,16 @@
         <div class="container">
           <h3>Select a category:</h3>
           <section class='button-container'>
-            <button class="study-button" type="button">
-              <img class="study" src="assets/study.svg" id="blank-study" />
+            <button class="activity-category study" type="button" id="blank-study-button">
+              <img class="activity-image" src="assets/study.svg" id="blank-study" />
               <h3 class="in-button">Study</h3>
             </button>
-            <button class="study-button" type="button">
-              <img class="study" src="assets/meditate.svg" id="blank-study" />
+            <button class="activity-category meditate" type="button" id="blank-meditate-button">
+              <img class="activity-image" src="assets/meditate.svg" id="blank-meditate" />
               <h3 class="in-button">Meditate</h3>
             </button>
-            <button class="study-button" type="button">
-              <img class="study" src="assets/exercise.svg" id="blank-study" />
+            <button class="activity-category exercise" type="button" id="blank-exercise-button">
+              <img class="activity-image" src="assets/exercise.svg" id="blank-exercise" />
               <h3 class="in-button">Exercise</h3>
             </button>
           </section>
@@ -41,7 +42,7 @@
                 Minutes
               </label>
               <div class="input">
-                <input type="text" class="minutes" value=""/>
+                <input type="text" class="time" value=""/>
               </div>
             </div>
             <div class="top-input">
@@ -49,7 +50,7 @@
                 Seconds
               </label>
               <div class="input">
-                <input type="text" class="minutes" value=""/>
+                <input type="text" class="time" value=""/>
               </div>
             </div>
           </div>
